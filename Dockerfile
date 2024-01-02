@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:18.04
 MAINTAINER Lyes AMEDDAH
 RUN apt-get update -y
 RUN apt-get install -y nginx
